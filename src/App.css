@@ -4,14 +4,26 @@ body {
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* 
-.profile-container {
-  
-} */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#twitter {
+  font-weight: bold;
+}
 
 #profile_img {
-  height: 60px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+#slack {
+  visibility: hidden;
 }
 
 .links {
@@ -36,4 +48,3 @@ body {
   border-radius: 10px;
 }
 
-/* background-color: #eeeef0; */
