@@ -13,3 +13,27 @@ body {
   height: 60px;
   width: 50px;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#twitter_link,
+#btn_zuri,
+#books,
+#book_python,
+#pitch,
+#book_design {
+  background-color: #eeeef0;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  width: 1200px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* background-color: #eeeef0; */
