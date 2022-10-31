@@ -18,6 +18,12 @@ function Links() {
       <img className='slack-img' src='images/slack.png' alt='Slack Logo'/>
       <img className='git-hub' src='images/github.png' alt='Github Logo'/>
       </div>
+
+      <div className='footer'>
+        <p className='intern'>Zuri<span>.</span>Internship</p>
+        <p className='phase'>HNG Internship 9 Frontend Task</p>
+        <img className='ingressive_logo' src='images/ingressive.jpg' alt='Logo'/>
+      </div>
     </>
   )
 }
