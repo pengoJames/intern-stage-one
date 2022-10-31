@@ -13,6 +13,11 @@ function Links() {
         <a title='Access services for background checks on coders' id='pitch' href='https://background.zuri.team/'>Background Check for Coders</a>
         <a title='Access design books for free offered by Zuri' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
       </div>  
+
+      <div className='icons'>
+      <img className='slack-img' src='images/slack.png' alt='Slack Logo'/>
+      <img className='git-hub' src='images/github.png' alt='Github Logo'/>
+      </div>
     </>
   )
 }

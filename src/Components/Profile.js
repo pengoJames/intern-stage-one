@@ -5,7 +5,7 @@ function Profile() {
    <>
         <div className='profile-container'>
             <div className='profile'> 
-            <img id='profile_img' className='profile-pic' src='images/andrew.jpg' alt=''/>
+            <img id='profile_img' className='profile-pic' src='images/andrew.jpg' alt='Profile Image'/>
             <p id='twitter' className='twitter-name'>James Odiwuor</p>
             <p id='slack' className='slack-name'>pengoJames</p>
             </div>
