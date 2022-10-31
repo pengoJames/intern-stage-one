@@ -48,3 +48,8 @@ body {
   border-radius: 10px;
 }
 
+.react-icon {
+  margin-left: 950px;
+  position: relative;
+  bottom: 185px;
+}

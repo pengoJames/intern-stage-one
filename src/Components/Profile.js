@@ -12,7 +12,7 @@ function Profile() {
             <p id='slack' className='slack-name'>pengoJames</p>
             </div>
 
-            <div className='react-icons'>
+            <div className='react-icon'>
               <RiArrowRightCircleLine/>
             </div>
         </div>
