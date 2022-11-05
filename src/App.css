@@ -57,7 +57,7 @@ body {
 }
 
 .icons {
-  margin-left: 670px;
+  margin-left: 645px;
   padding: 10px;
 }
 
@@ -98,4 +98,5 @@ body {
 
 .ingressive_logo {
   height: 50px;
+  font-weight: bold;
 }
