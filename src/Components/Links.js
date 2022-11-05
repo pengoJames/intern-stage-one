@@ -14,17 +14,6 @@ function Links() {
         <a title='Access design books for free offered by Zuri' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
         <a id='contact' href='/contact'>Contact</a>
       </div>  
-
-      <div className='icons'>
-      <img className='slack-img' src='images/slack.png' alt='Slack Logo'/>
-      <img className='git-hub' src='images/github.png' alt='Github Logo'/>
-      </div>
-
-      <div className='footer'>
-        <p className='intern'>Zuri<span>.</span>Internship</p>
-        <p className='phase'>HNG Internship 9 Frontend Task</p>
-        <img className='ingressive_logo' src='images/ingressive.jpg' alt='Logo'/>
-      </div>
     </>
   )
 }
