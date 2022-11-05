@@ -100,3 +100,100 @@ body {
   height: 50px;
   font-weight: bold;
 }
+
+.contact__container {
+  margin: 130px 120px 188px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.contact__header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__header h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contact__header p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.name__container {
+  display: flex;
+  gap: 24px;
+}
+
+.detail__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  height: 44px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+textarea {
+  height: 132px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.checkbox__container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 15px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: blue;
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__container {
+    margin: 64px 0;
+  }
+}
